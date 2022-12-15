@@ -9,7 +9,23 @@ public class Crate : MonoBehaviour, IInteractable
     public string InteractionPrompt => _prompt; 
     public bool Interact(Interacter interacter)
     {
-        Debug.Log("Opening the chest");
-        return true;
+        var invetory = interacter.GetComponent<Inventory>();
+       
+
+
+        if (invetory.hasPart)
+        {
+            Debug.Log("Place the part in the ship first.");
+            return false;
+        }
+        else
+        {
+            Debug.Log("Opening the chest");
+            
+            invetory.hasPart = true;
+            Destroy(gameObject);
+            return true;
+        }
+        
     }
 }

@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Menue.unity
     guid: b311b5eab0681b645b1de23bcc4bf848
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 7440aa0a5feb67b4e96bf77748c01b35
+  - enabled: 1
+    path: Assets/Scenes/Tutorial 1.unity
+    guid: e664335579b3e0d40831ffbb7a167dd6
+  - enabled: 1
     path: Assets/Scenes/Ship scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Take Off.unity
+    guid: 4f65dec30b60a2241b364a5e5d7fe22d
+  - enabled: 1
+    path: Assets/Scenes/End Screen.unity
+    guid: 0f0fb1565802dc9488e25b00e97e2bab
   m_configObjects: {}
